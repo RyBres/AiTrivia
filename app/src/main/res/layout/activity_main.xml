@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:backgroundTint="@color/black"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="RoboGenie"
+        android:textColor="#FFD700"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-18dp"
+        android:src="@drawable/mechanical_turk"
+        android:contentDescription="Fortune GIF" />
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/kode_mono_bold"
+        android:gravity="center"
+        android:text="I am the great RoboGenie. \nWhat do you wish for?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userWishInput"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/questionText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/kode_mono_bold"
+        android:hint="Enter your response..."
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userWishInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFD700"
+        android:fontFamily="@font/kode_mono_bold"
+        android:text="Tell RoboGenie"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
+
