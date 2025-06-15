@@ -19,7 +19,7 @@ RoboGenie is an Android app that blends whimsical fortune-telling with the power
 
 1. **Launch the App**: You're greeted with a stylized layout featuring:
    - Title text
-   - A pixelated RoboGenie GIF
+   - A pixelated RoboGenie GIF (credit to Sarah Burgess at https://maketodaycolourful.co.uk/)
    - A prompt asking you to "make a wish"
    - A button to progress through the experience
 
