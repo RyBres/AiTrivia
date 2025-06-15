@@ -1,6 +1,6 @@
 # 🤖🧞 RoboGenie
 
-![RoboGenie Demo](Screen_recording_20250510_235555.gif)
+<img src="Screen_recording_20250510_235555.gif" alt="RoboGenie Demo" width="400">
 
 RoboGenie is an Android app that blends whimsical fortune-telling with the power of artificial intelligence. It offers users a fun, mysterious, and personalized experience powered by the GPT-4 model from OpenAI. Make a wish, answer a few quirky questions, and receive a captivating fortune from the enigmatic RoboGenie.
 
